@@ -1,0 +1,32 @@
+{
+  "name": "react-weather-app",
+  "version": "1.0.0",
+  "description": "A full stack react weather app",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/PragneshNonghanvadra/React-weather-app.git"
+  },
+  "keywords": [
+    "react"
+  ],
+  "author": "Pragnesh Nonghanvadra",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/PragneshNonghanvadra/React-weather-app/issues"
+  },
+  "homepage": "https://github.com/PragneshNonghanvadra/React-weather-app#readme",
+  "devDependencies": {
+    "concurrently": "^4.1.0",
+    "nodemon": "^1.18.10"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "cookie-parser": "^1.4.4",
+    "express": "^4.16.4",
+    "pg": "^7.8.0"
+  }
+}

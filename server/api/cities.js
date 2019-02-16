@@ -13,7 +13,7 @@ router.get('/', (req, res) => {
 
 router.post('/', (req, res) => {
   var city = req.body.city;
-  
+
   Cities.insert(city, (err, result) => {
     if (err)
       return res.json(err);

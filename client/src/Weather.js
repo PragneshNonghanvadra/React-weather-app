@@ -30,11 +30,11 @@ const Weather = (props) => {
             </tr>
             <tr>
               <td>Min Temp</td>
-              <td>{Math.floor(data.main.temp_min)}&deg;F</td>
+              <td>{Math.round((Math.floor(data.main.temp_min)-32)*(5/9))}&deg; C</td>
             </tr>
             <tr>
               <td>Max Temp</td>
-              <td>{Math.floor(data.main.temp_max)}&deg;F</td>
+              <td>{Math.round((Math.floor(data.main.temp_max)-32)*(5/9))}&deg; C</td>
             </tr>
           </tbody>
         </Table>
